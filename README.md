@@ -1,4 +1,5 @@
 # Diabetes-Hospital-Readmission-Analysis
+
 ​## Project Overview: 
 ​This project analyzes a dataset representing 10 years (1999-2008) of clinical care at 130 US hospitals. The primary goal is to identify factors that influence hospital readmission, a key quality metric in healthcare that affects both patient outcomes and hospital costs.
 
@@ -16,7 +17,7 @@ Hospital readmission within 30 days is a key quality metric in healthcare — it
 **Predictive Power of History:** The number of prior emergency visits is a stronger predictor of readmission than the length of the current hospital stay (r = 0.06 vs 0.04) - suggesting that chronic disease management history matters more than acute care duration. 
 **Primary Diagnosis Impact:** Patients admitted with Diabetes as the primary diagnosis have a higher risk of return (12.98%) compared to those where diabetes was a secondary condition to cardiovascular issues (10.98%). 
 
-​ Visual Highlights: 
+​## Visual Highlights: 
 ![H1 - Therapy Changes](visuals/h1.png)
 ![H2 - HBA1c Testing](visuals/h2.png)
 ![H4 - Primary Diagnosis](visuals/h4.png)​
@@ -26,9 +27,9 @@ Hospital readmission within 30 days is a key quality metric in healthcare — it
 - **Care Transition for Therapy Changes:** Patients whose medications were adjusted during their stay should receive a follow-up call within the first 7 - 14 days after discharge to ensure stabilization.
 ​- **Standardize HbA1c Protocols:** Implement mandatory HbA1c testing for all diabetic patients if no test was performed in the last 90 days (based on the erythrocyte life cycle).
 - **High-Risk Patient Flagging:** Patients with even one emergency visit in the past year should be automatically enrolled in a "Post-Discharge Support Program."
-- **Diabetes Education Focus:** Since "Primary Diabetes" patients show the highest return rates, focus resources on Diabetes Self-Management Education (DSME) before discharge. 
-
-## Limitations 
+- **Diabetes Education Focus:** Since "Primary Diabetes" patients show the highest return rates, focus resources on Diabetes Self-Management Education (DSME) before discharge.
+  
+##Limitations 
 - **Confounding Variables:** The analysis does not control for disease severity, number of prior hospitalizations, or hospital quality — factors that may independently explain the observed differences.
 ​- **Clinical Bias:** HbA1c testing might be a marker of overall higher-quality hospitals rather than the sole cause of lower readmissions.
 ​- **Data Age:** The dataset is historical; modern clinical protocols may differ, but the underlying statistical relationships remain a strong baseline for MedTech modeling. 
