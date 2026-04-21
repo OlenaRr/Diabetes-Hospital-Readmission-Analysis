@@ -1,12 +1,12 @@
 # Diabetes-Hospital-Readmission-Analysis
 
-​## Project Overview: 
+​## Project Overview:
 ​This project analyzes a dataset representing 10 years (1999-2008) of clinical care at 130 US hospitals. The primary goal is to identify factors that influence hospital readmission, a key quality metric in healthcare that affects both patient outcomes and hospital costs.
 
-## Business Objective: 
+## Business Objective:
 Hospital readmission within 30 days is a key quality metric in healthcare — it signals gaps in treatment, increases costs, and burdens both patients and providers. This project analyzes 10 years of clinical data from 130 US hospitals to identify which factors — medication changes, diagnostic completeness, emergency history, and comorbidity patterns — are associated with higher readmission risk in diabetic patients. The goal is to provide actionable, data-driven insights that can help healthcare providers improve discharge protocols and reduce preventable readmissions.
 
-## Tools & Data: 
+## Tools & Data:
 ​- **Dataset:** 100k+ diabetes clinical records - [Diabetes 130 US hospitals (Kaggle)] (https://www.kaggle.com/datasets/brandao/diabetes)
 ​- **Language:** Python 3.12
 ​- **Libraries:** Pandas (Data Cleaning/EDA), NumPy (Logic), Scipy.stats (Statistical Testing: Chi-square, Point-Biserial Correlation), Matplotlib/Seaborn (Visualization).
